@@ -893,14 +893,11 @@ coordinada entre actores del mercado. El diseño del despliegue debe contemplar 
 ```
 Housing_Prices_ML_P1/
 ├── data/
-│   └── raw/
-│       └── Ames_Iowa_Housing_Dataset.csv
+│   ├── raw/
+│   │   └── Ames_Iowa_Housing_Dataset.csv
+│   └── processed/
 ├── notebooks/
 │   └── EDA_Housing_v1_5.ipynb
-├── images/
-│   └── [gráficos exportados del EDA]
-├── models/
-│   └── [modelos entrenados — fase siguiente]
 └── README.md
 ```
 
